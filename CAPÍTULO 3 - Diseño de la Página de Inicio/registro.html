@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micheladas Colmex - El sabor tradicional</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/auth.css">
+    <!-- Iconos Font Awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado -->
+
+    <header>
+        <img class="logo" src="IMG/LOGO DE COLMEX.jpg" alt="logo">
+        <h1>Micheladas Colmex</h1>
+        <p>El Sabor y Frescura En Cada Sorbo</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="desarrolladores.html">Desarrolladores</a>
+        <!--Enlace de login-->
+        <a href="login.html" class="nav-auth" class="acceso-cliente"> <i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesión</a>
+        
+
+        <!--Enlace de registro-->
+        <a href="registro.html" class="nav-auth" class="acceso-registro"><i class="fa-solid fa-user-plus"></i> Crear cuenta</a>
+        
+    </nav>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="auth-container">
+
+    <!-- Columna izquierda: imagen promocional -->
+    <section class="auth-image">
+        <img
+            src="IMG/LOGO DE COLMEX.jpg"
+            alt="Sabor y frescura en cada sorbo"
+        >
+
+        <div class="auth-image-text">
+            <h2>¡Disfruta las micheladas Colmex!</h2>
+            <p>Sabores refrescantes para compartir y disfurtar.</p>
+            <strong>¡EL MEJOR SABOR EN CADA MICHELADA!</strong>
+        </div>
+    </section>
+
+    <!-- Columna derecha: formulario de registro -->
+    <section class="auth-card">
+
+        <a class="brand" href="index.html">
+            MICHELADAS COLMEX
+        </a>
+
+        <h1>Crear una cuenta</h1>
+
+        <p class="auth-description">
+            Regístrate para conocer nuestros productos
+            y preparar tus futuras compras.
+        </p>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    autocomplete="name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    autocomplete="email"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    placeholder="Crea una contraseña"
+                    autocomplete="new-password"
+                    minlength="8"
+                    required
+                >
+                <small>Utiliza al menos 8 caracteres.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmar">Confirmar contraseña</label>
+                <input
+                    type="password"
+                    id="confirmar"
+                    name="confirmar"
+                    placeholder="Escribe de nuevo la contraseña"
+                    autocomplete="new-password"
+                    minlength="8"
+                    required
+                >
+            </div>
+
+            <div class="terms-group">
+                <input
+                    type="checkbox"
+                    id="terminos"
+                    name="terminos"
+                    required
+                >
+
+                <label for="terminos">
+                    He leído y acepto los términos y condiciones
+                    de la tienda.
+                </label>
+            </div>
+
+            <button type="submit" class="auth-button">
+                Crear cuenta
+            </button>
+
+        </form>
+
+        <p class="auth-switch">
+            ¿Ya tienes una cuenta?
+            <a href="login.html">Inicia sesión</a>
+        </p>
+
+        <a class="back-link" href="index.html">
+            Volver a la tienda
+        </a>
+
+    </section>
+
+</main>
+
+<footer>  
+<div class="footer-contenedor"> 
+    <div> 
+       <h3>COLMEX</h3> 
+        <p> 
+        COLMEX es una empresa creada por un equipo de jóvenes emprendedores que busca ofrecer productos innovadores y de calidad, brindando una experiencia agradable a sus clientes. Nuestra empresa se dedica a la elaboración y comercialización de diferentes productos, acompañados de una página web que facilita la información y promoción de nuestro emprendimiento.
+        </p> 
+    </div> 
+    <div> 
+        <h3>Enlaces</h3> 
+        <ul> 
+            <li><a href="index.html">Inicio</a></li> 
+            <li><a href="nosotros.html">Nosotros</li> 
+            <li><a href="productos.html">Productos</li> 
+            <li><a href="contacto.html">Contacto</li> 
+            <li><a href="desarrolladores.html">Desarrolladores</li> 
+        </ul> 
+    </div> 
+    <div> 
+        <h3>Redes Sociales</h3> 
+        <ul>
+            <li><a href="https://www.facebook.com/share/19g5vbUEDs/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/colm.ex202?utm_source=qr&stkn=MTJranczc2t1djBsOQ==">Instagram</a></li>
+            <li><a href="https://wa.me/573143917211?text=Hola%2C%20estoy%20interesad@%20en%20una%20Michelada">WhatsApps</a></li>
+        </ul>
+    </div>
+</div> 
+    <div class="copyright"> 
+        <p> 
+        © 2026 COLMEX MICHELADAS
+        </p> 
+    </div> 
+</footer>
+
+</body>
+</html>
+
+
+
